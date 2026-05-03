@@ -58,17 +58,10 @@ ui <- fluidPage(
                column(6,
                       h4("1. Dataset Context"),
                       p(strong("Source:"), "UC Irvine Machine Learning Repository (Cleveland Dataset)."),
-                      p(strong("Collection Methodology:"), "Data was collected via non-invasive clinical evaluations at the Cleveland Clinic Foundation, including resting ECGs and exercise stress tests."),
+                      p(strong("Dataset Structure:"), "303 observations across 14 attributes (13 predictors and 1 target variable)."),
+                      p(strong("Collection Methodology:"), "Data was collected via non-invasive clinical evaluations at the Cleveland Clinic Foundation, including resting ECGs and exercise stress tests"),
                       
-                      p(strong("The 13 Clinical Predictors:")),
-                      tags$ul(
-                        tags$li("Age, Sex, Chest Pain Type (cp)"),
-                        tags$li("Resting Blood Pressure (trestbps), Cholesterol (chol)"),
-                        tags$li("Fasting Blood Sugar (fbs), Resting ECG (restecg)"),
-                        tags$li("Max Heart Rate (thalach), Exercise Angina (exang)"),
-                        tags$li("ST Depression (oldpeak), ST Slope (slope)"),
-                        tags$li("Major Vessels (ca), Thalassemia (thal)")
-                      ),
+                      p(strong("The 13 Clinical Predictors:"), "Age, Sex, Chest Pain Type (cp), Resting Blood Pressure (trestbps), Cholesterol (chol), Fasting Blood Sugar (fbs), Resting ECG (restecg), Max Heart Rate (thalach), Exercise Angina (exang), ST Depression (oldpeak), ST Slope (slope), Major Vessels (ca), Thalassemia (thal)."),
                       
                       h4("2. Licensing"),
                       p(strong("License:"), "Creative Commons Attribution 4.0 International (CC BY 4.0)."),
